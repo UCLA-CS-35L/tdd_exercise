@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 pytest = "*"
+gitpython = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.13"
+
+[scripts]
+next = "python git_next.py"
+init = "python git_init.py"

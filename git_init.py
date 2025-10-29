@@ -3,7 +3,7 @@ import git
 import os
 import sys
 
-COMMIT_HASH = ''
+COMMIT_HASH = '324eb30cb78162376cdba3781f1b7a73e5685118'
 
 try:
     try:
